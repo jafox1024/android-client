@@ -39,7 +39,7 @@ jobs:
       - name: Install gomobile
         run: go install golang.org/x/mobile/cmd/gomobile@v0.0.0-20230531173138-3c911d8e3eda
       - name: Build NetBird Go library
-        run: PATH=$PATH:$(go env GOPATH)/bin bash -x build-android-lib.sh
+        run: PATH=$PATH:$(go env GOPATH)/bin bash -x build-android-lib.sh 0.46.0
         env:
           ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/23.1.7779620
       - name: Get short Git hash

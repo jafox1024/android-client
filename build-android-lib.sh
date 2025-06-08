@@ -8,6 +8,7 @@ set -e
 version=${1:-development}
 app_path=$(pwd)
 
+git clone https://github.com/netbirdio/netbird.git
 cd netbird
 gomobile init
 

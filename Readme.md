@@ -14,6 +14,7 @@
 </div>
 
 
+
 <p align="center">
 <strong>
   Start using NetBird at <a href="https://netbird.io/pricing">netbird.io</a>
